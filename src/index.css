@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+.font-manrope{
+  font-family: 'Manrope', sans-serif;
+}
+
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+.active{
+  color: #7E90FE;
+  padding: auto;
+  text-decoration: underline;
+  
+}
+.gradient-border {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #7E90FE, #9873FF);
+  border-image-slice: 1;
+ 
+}
